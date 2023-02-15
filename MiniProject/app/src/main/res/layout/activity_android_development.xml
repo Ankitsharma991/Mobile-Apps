@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bboard"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/android_development"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="#330099FF"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text="@string/top_technologies"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/java"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/java" />
+
+    <ImageView
+        android:id="@+id/kotlin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/kot" />
+
+
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/as" />
+
+    <ImageView
+        android:id="@+id/flutter"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/flutter" />
+
+    <ImageView
+        android:id="@+id/reactNative"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/reactnative" />
+
+    <ImageView
+        android:id="@+id/firebase"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/fire" />
+</LinearLayout>

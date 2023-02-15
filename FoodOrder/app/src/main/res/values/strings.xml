@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food Order</string>
+    <string name="welcome_to_corner_cafe">Welcome to Corner Cafe</string>
+    <string name="select_food_items">Select Food Items</string>
+    <string name="button">Button</string>
+    <string name="view_menu">View Menu</string>
+    <string name="order_now">Order Now!</string>
+    <string name="enter_item_4">enter Item 4</string>
+    <string name="enter_item_3">Enter item 3</string>
+    <string name="enter_item_2">Enter item 2</string>
+    <string name="enter_item_1">Enter Item 1</string>
+    <string name="welcome_to_corner_cafe2">WELCOME TO CORNER CAFE</string>
+    <string name="enter_item_42">Enter item 4</string>
+    <string name="conner_cafe">Conner Cafe</string>
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="confirm_order">Confirm Order</string>
+</resources>

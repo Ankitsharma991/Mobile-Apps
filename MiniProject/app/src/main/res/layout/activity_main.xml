@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bboard"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcome_to_ankit_knowledge_hub"
+        android:textColor="#FF0000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/me1" />
+
+    <Button
+        android:id="@+id/btncallme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="#40FF0000"
+        android:fontFamily="monospace"
+        android:text="@string/let_s_go2"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+</LinearLayout>

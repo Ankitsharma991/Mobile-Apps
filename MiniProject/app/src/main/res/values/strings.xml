@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mini Project</string>
+    <string name="welcome_to_ankit_knowledge_hub">Welcome to Ankit \nKnowledge Hub</string>
+    <string name="let_s_go">Let\'s go</string>
+    <string name="welcome_to_ankit_nknowledge_hub">Welcome To Ankit\nKnowledge Hub</string>
+    <string name="technologies">Technologies</string>
+    <string name="blockchain">Blockchain</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="web_development">Web Development</string>
+    <string name="ios_development">IOS Development</string>
+    <string name="android_development">Android Development</string>
+    <string name="machine_learning">Machine Learning</string>
+    <string name="call_me">Call Me</string>
+    <string name="let_s_go2">Let\'s go</string>
+    <string name="required_technologies">Required Technologies</string>
+    <string name="top_technologies">Top Technologies</string>
+    <string name="to_learn_html">To learn Html</string>
+    <string name="to_learn_css">To learn Css</string>
+    <string name="to_learn_js">to learn js</string>
+    <string name="to_learn_react">to learn react</string>
+    <string name="to_learn_node">to learn node</string>
+    <string name="to_learn_mongo">to learn mongo</string>
+</resources>

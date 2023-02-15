@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="@string/conner_cafe"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#379C66"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/order_confirmation"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/alop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/alop" />
+    <ImageView
+        android:id="@+id/bir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/bir" />
+    <ImageView
+        android:id="@+id/btrckn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/btrckn" />
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/fsfr" />
+    <ImageView
+        android:id="@+id/mtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/mtn" />
+    <ImageView
+        android:id="@+id/mm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/mm" />
+    <ImageView
+        android:id="@+id/vegCurr"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/vegcurr" />
+    <ImageView
+        android:id="@+id/pp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/pp" />
+    <ImageView
+        android:id="@+id/mtrpa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/mtrpa" />
+    <ImageView
+        android:id="@+id/naan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/naan" />
+    <ImageView
+        android:id="@+id/rf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/rf" />
+    <ImageView
+        android:id="@+id/fsfr"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        app:srcCompat="@drawable/fsfr" />
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

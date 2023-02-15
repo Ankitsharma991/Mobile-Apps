@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    tools:context=".OrderConfirmed">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="@string/conner_cafe"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#379C66"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/order_confirmation"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF6060"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#992F2F49"
+        android:text="@string/confirm_order" />
+
+</LinearLayout>

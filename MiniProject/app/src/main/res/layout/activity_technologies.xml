@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bboard"
+    tools:context=".Technologies">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Different Domains"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/block"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/android"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/blockchain"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cyber"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/android"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/cyber_security"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/web_development"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ios"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/ios_development"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/android"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/web"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/android_development"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ml"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/web"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#40FF0000"
+        android:text="@string/machine_learning"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncallme"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#40FF0000"
+        android:fontFamily="monospace"
+        android:text="@string/call_me"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/myself" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textSize="15dp"
+        android:text="Hello Sir my name is Ankit Kumar Sharma. I am currently in my second year of Btech in Computer Science and Engineering at Amrita Vishwa Vidyaapeetham. I have knowledge of HTML5, CSS, Bootstrap, JavaScript, git, and GitHub. I have also made a few basic projects. I have also contributed to a repository named DSA_MADE_EASY which is the DSA visualizer website. I have also worked with DeepThought teams for 3 months in frontend and skills like HTML, CSS, javascript (jQuery), React and React native, etc used in that period but I cannot complete my 6 months internship still i have a good understanding of team works, leadership skill at some extent. So, now I want to learn and explore front-end development with real-world projects being in the circle of some great tutors. This will not only help me to explore web development, but it will also make my resume strong if get this great opportunity."
+        android:layout_gravity="center"
+        />
+    </ScrollView>
+</LinearLayout>

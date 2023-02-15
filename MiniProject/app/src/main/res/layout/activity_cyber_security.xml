@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bboard"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/cyber_security"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="#330099FF"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text="@string/top_technologies"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/networking"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/ip" />
+
+    <ImageView
+        android:id="@+id/firewall"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/fw" />
+
+
+    <ImageView
+        android:id="@+id/vpn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/vpn" />
+
+    <ImageView
+        android:id="@+id/python"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/python" />
+
+    <ImageView
+        android:id="@+id/c"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/c" />
+
+    <ImageView
+        android:id="@+id/crypto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-120dp"
+        android:background="#99FF0000"
+        app:srcCompat="@drawable/cth" />
+
+
+
+
+</LinearLayout>
