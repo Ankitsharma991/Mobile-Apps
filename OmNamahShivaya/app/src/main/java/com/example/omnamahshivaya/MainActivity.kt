@@ -1,4 +1,4 @@
-package com.example.logcat
+package com.example.omnamahshivaya
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
         Handler().postDelayed({
-            val intent = Intent(this, SignUp::class.java)
+            val intent = Intent(this, Card::class.java)
             startActivity(intent)
             finish()
-        }, 1000)
+        }, 2000)
     }
 }
