@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jsi"
+    android:orientation="vertical"
+    tools:context=".YourMessage">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/oo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#6699CC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="monospace"
+            android:text="@string/wishing_you_your_family_and_your_loved_ones_a_happy_and_blessed_mahashivratri_may_lord_shiva_s_grace_be_with_you_always_and_may_this_auspicious_occasion_bring_you_peace_prosperity_and_happiness"
+            android:textAlignment="center"
+            android:textColor="#6699CC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="monospace"
+            android:text="@string/jai_bholenath"
+            android:textAlignment="center"
+            android:textColor="#6699CC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/harhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/entertext"
+        android:text="@string/say_har_har_mahadev" />
+</LinearLayout>

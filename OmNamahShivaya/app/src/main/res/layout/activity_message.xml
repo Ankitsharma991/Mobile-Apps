@@ -14,4 +14,34 @@
         android:layout_height="100dp"
         android:layout_marginTop="0dp"
         app:srcCompat="@drawable/omr" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/HappyMsg"
+                android:layout_margin="30dp"
+                android:background="@drawable/entertext"
+                android:hint="@string/enter_your_name2"
+                android:textColor="#FDFDFD" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/HappyBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_weight="1"
+        android:background="@drawable/entertext"
+        android:text="@string/enter" />
 </LinearLayout>

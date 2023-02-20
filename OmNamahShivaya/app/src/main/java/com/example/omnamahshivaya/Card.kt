@@ -22,7 +22,7 @@ class Card : AppCompatActivity() {
         }
 
         history.setOnClickListener{
-            Toast.makeText(applicationContext, "Loading History", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "MahaShivratri History", Toast.LENGTH_SHORT).show()
             val intent = Intent(applicationContext, History::class.java)
             startActivity(intent)
         }

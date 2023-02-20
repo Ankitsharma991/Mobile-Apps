@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Card::class.java)
             startActivity(intent)
             finish()
-        }, 2000)
+        }, 3000)
     }
 }

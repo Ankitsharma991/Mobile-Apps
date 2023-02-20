@@ -3,15 +3,125 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/wall"
     android:layout_height="match_parent"
+    android:background="@drawable/jsi"
+    android:orientation="vertical"
     tools:context=".History">
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="120dp"
         android:layout_marginTop="0dp"
-        app:srcCompat="@drawable/omr" />
+        app:srcCompat="@drawable/oo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#666BF4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="@string/history_of_mahashivratri"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFEB3B"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/what_is_mahashivratri"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:text="@string/maha_shivratri_is_a_major_hindu_festival_dedicated_to_lord_shiva_that_is_observed_annually_on_the_14th_day_of_the_dark_fortnight_in_the_hindu_month_of_phalguna_or_magha_which_usually_falls_in_february_or_march_devotees_of_lord_shiva_fast_visit_shiva_temples_and_offer_prayers_and_offerings_to_the_deity_throughout_the_night_the_festival_is_celebrated_with_great_devotion_and_enthusiasm_by_hindus_worldwide_and_it_has_religious_and_mythological_significance_in_hinduism"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/myth_behind_it_s_origin"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/according_to_one_popular_myth_on_the_night_of_maha_shivratri_lord_shiva_drank_a_pot_of_poison_that_emerged_during_the_churning_of_the_ocean_to_save_the_world_and_the_day_is_celebrated_in_honor_of_his_sacrifice"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/how_can_you_celebrate"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_celebrate_maha_shivratri_devotees_of_lord_shiva_usually_fast_and_visit_shiva_temples_to_offer_prayers_and_offerings_they_also_engage_in_meditation_chanting_of_mantras_and_reading_or_listening_to_stories_about_lord_shiva_to_seek_his_blessings_the_festival_is_a_time_for_spiritual_reflection_and_seeking_blessings_for_a_good_life"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="@string/thanks_for_reading_nhave_a_good_day"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFEB3B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

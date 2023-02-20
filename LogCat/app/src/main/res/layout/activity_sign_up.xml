@@ -17,27 +17,44 @@
         android:textSize="25sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="118dp"
-
         tools:layout_editor_absoluteY="22dp" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:helperText="required"
         app:helperTextTextColor="#FF0000"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         android:layout_height="60dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/yourName"
+            android:background="@drawable/btnfile"
+            android:inputType="textCapWords"
+            android:hint="@string/enter_your_full_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:helperText="required"
+        app:helperTextTextColor="#FF0000"
+        android:layout_margin="25dp"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
             android:background="@drawable/btnfile"
             android:inputType="text"
-            android:hint="@string/username" />
+            android:hint="@string/usernam" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         app:startIconDrawable="@drawable/ic_baseline_email_24"
         app:helperText="required"
         app:helperTextTextColor="#FF0000"
@@ -47,14 +64,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btnfile"
+            android:id="@+id/userEmail"
             android:inputType="textEmailAddress"
             android:hint="@string/email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         app:helperText="required"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
         app:endIconMode="password_toggle"
         app:helperTextTextColor="#FF0000"
         android:layout_height="60dp">
@@ -62,17 +81,18 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/userPassword"
             android:background="@drawable/btnfile"
             android:inputType="textPassword"
             android:hint="@string/password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registerBtn"
         android:layout_width="250dp"
         android:layout_height="62dp"
         android:layout_gravity="center"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         android:backgroundTint="#99FFAD62"
         android:fontFamily="monospace"
         android:text="@string/register"
