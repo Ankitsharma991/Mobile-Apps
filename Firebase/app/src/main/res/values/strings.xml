@@ -6,4 +6,12 @@
     <string name="enter_your_password">Enter your password</string>
     <string name="enter_your_name2">Enter your Name</string>
     <string name="enter_your_username">Enter your username</string>
+    <string name="sign_in_here">Sign In Here</string>
+    <string name="log_in">Log In</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="hey_user_nyour_name_is_username_nemail_id_is_email_npassword_is_password_n">Hey {User},\nYour name is {UserName}\nEmail id is {Email}\nPassword is {Password}\n</string>
+    <string name="home">Home</string>
 </resources>

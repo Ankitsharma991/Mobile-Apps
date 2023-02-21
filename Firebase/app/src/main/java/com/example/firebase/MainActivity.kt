@@ -1,5 +1,6 @@
 package com.example.firebase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -40,6 +41,11 @@ class MainActivity : AppCompatActivity() {
             }.addOnCanceledListener {
                 Toast.makeText(this, "Registration Failed", Toast.LENGTH_SHORT).show()
             }
+        }
+        val signIn = findViewById<Button>(R.id.LoginButton)
+        signIn.setOnClickListener{
+            val intent = Intent(applicationContext, SignIn::class.java)
+            startActivity(intent)
         }
     }
 }
