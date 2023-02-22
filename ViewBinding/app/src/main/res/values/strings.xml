@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewBinding</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="welcome_to_nregistration_page">Welcome to \nRegistration Page...</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="accept_terms_and_conditions">accept terms and conditions</string>
+    <string name="register">Register</string>
+    <string name="enter_password1">Enter Password</string>
+</resources>

@@ -17,7 +17,6 @@ class SignIn : AppCompatActivity() {
         const val KEY2 = "com.example.firebase.SignIn.KEY2"
         const val KEY3 = "com.example.firebase.SignIn.KEY3"
         const val KEY4 = "com.example.firebase.SignIn.KEY4"
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,8 +34,10 @@ class SignIn : AppCompatActivity() {
 
             if(uniqueId.isNotEmpty()){
                 if(passwordString.isNotEmpty()) {
-                    readData(uniqueId, passwordString)
+//                    readData(uniqueId, passwordString)
+                    readData(uniqueId)
                 }
+
                 else{
                     Toast.makeText(this, "Enter Password", Toast.LENGTH_SHORT).show()
                 }
@@ -45,7 +46,7 @@ class SignIn : AppCompatActivity() {
             }
         }
     } // onreate method over
-    private fun readData(uniqueId: String, pass: String){
+    private fun readData(uniqueId: String){
         databaseReference = FirebaseDatabase.getInstance().getReference("Users")
         databaseReference.child(uniqueId).get().addOnSuccessListener {
             // If usr exist of not
@@ -54,22 +55,22 @@ class SignIn : AppCompatActivity() {
                 val name = it.child("name").value
                 val password = it.child("password").value
                 val unique = it.child("uniqueId").value
-                databaseReference.child(pass).get().addOnSuccessListener { p ->
-                    if(p.exists()) {
-                        val intent = Intent(this, Profile::class.java)
-                        intent.putExtra(KEY1, email.toString())
-                        intent.putExtra(KEY2, name.toString())
-                        intent.putExtra(KEY3, password.toString())
-                        intent.putExtra(KEY4, unique.toString())
-                        startActivity(intent)
-                    }
-                    else{
-                        Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
-                    }
-                }.addOnFailureListener{
-                    Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
-                }
+//                databaseReference.child(pass).get().addOnSuccessListener { p ->
+//                    if(p.exists()) {
+                val intent = Intent(this, Profile::class.java)
+                intent.putExtra(KEY1, email.toString())
+                intent.putExtra(KEY2, name.toString())
+                intent.putExtra(KEY3, password.toString())
+                intent.putExtra(KEY4, unique.toString())
+                startActivity(intent)
             }
+//                    else{
+//                        Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
+//                    }
+//                }.addOnFailureListener{
+//                    Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
+//                }
+//            }
             else{
                 Toast.makeText(this, "Username doesn't exist", Toast.LENGTH_SHORT).show()
             }

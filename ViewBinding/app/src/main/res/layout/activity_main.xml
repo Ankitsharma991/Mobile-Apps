@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/welcome_to_nregistration_page"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:hint="@string/enter_your_email"
+            android:textColorHint="@color/black"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/ic_baseline_supervised_user_circle_24"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:id="@+id/etName"
+            android:background="@color/white"
+            android:hint="@string/enter_your_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/ic_baseline_password_24"
+        android:layout_margin="20dp"
+        app:endIconMode="password_toggle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:textStyle="normal"
+            android:shadowColor="#FFFFD900"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:id="@+id/etpassword"
+            android:hint="@string/enter_password1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/accept_terms_and_conditions"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#66F4DB3D"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
