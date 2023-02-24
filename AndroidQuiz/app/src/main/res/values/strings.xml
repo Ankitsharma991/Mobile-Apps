@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidQuiz</string>
+    <string name="android_exam">Android Exam</string>
+    <string name="attempt_all_the_five_questions_select_the_correct_answer_from_the_given_options">Attempt all the Five Questions. Select the correct answer from the given options.</string>
+    <string name="questions_1">Questions-1</string>
+    <string name="questions_2">Questions-2</string>
+    <string name="questions_3">Questions-3</string>
+    <string name="questions_4">Questions-4</string>
+    <string name="questions_5">Questions-5</string>
+    <string name="exit">Exit</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlertDialogBox</string>
+    <string name="alert_dialogue_boxes">Alert Dialogue Boxes</string>
+    <string name="warning_box">Warning Box</string>
+    <string name="single_choice">Single Choice</string>
+    <string name="multiple_choice">Multiple Choice</string>
+    <string name="select_multiple">Select Multiple</string>
+    <string name="select_only_one">Select Only One</string>
+</resources>
