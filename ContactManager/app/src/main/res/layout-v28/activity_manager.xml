@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/oth"
+    tools:context=".Manager">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/contact_the_manager"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="1000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/add_the_manager_s_contact"
+        android:textAlignment="center"
+        android:textColor="#C19FB7EC"
+        android:textFontWeight="1000"
+        android:textSize="25sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/profile_bg_input"
+            android:layout_marginTop="30dp"
+            android:hint="@string/enter_the_manager_s_name"
+            android:textColorHint="@color/black"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:startIconDrawable="@drawable/ic_baseline_phone_24"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profile_bg_input"
+            android:hint="@string/enter_their_contact_number"
+            android:textColorHint="@color/black"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:startIconDrawable="@drawable/ic_baseline_add_home_work_24"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profile_bg_input"
+            android:hint="@string/enter_the_office_address"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#4D000000"
+        android:text="@string/add_details" />
+
+    <TextView
+        android:id="@+id/made"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/made_by_ankit_sharma_with"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#66FF0000"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>

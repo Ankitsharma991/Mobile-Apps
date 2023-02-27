@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomDialogBox</string>
+    <string name="you_have_successfully_completed_20days_of_30days_android_development_challenge">You have successfully completed 20days of 30Days Android Development Challenge.</string>
+    <string name="congratulations">Congratulations!!!</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="too_good">Too Good</string>
+    <string name="learning_customised_alert_box_with_saumya_dd">Learning Customised Alert Box with Saumya DD</string>
+    <string name="learning_custom_alert_box">Learning Custom Alert Box</string>
+    <string name="click_me">Click Me</string>
+</resources>

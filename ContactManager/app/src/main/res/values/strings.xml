@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ContactManager</string>
+    <string name="contact_the_manager">Contact The Manager</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="register_here">Register here</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="sign_in_here">Sign in here</string>
+    <string name="login">Login</string>
+    <string name="add_manager_s_contact">Add Manager\'s Contact</string>
+    <string name="add_the_manager_s_contact">Add The Manager\'s Contact</string>
+    <string name="enter_the_manager_s_name">Enter The Manager\'s Name</string>
+    <string name="enter_their_contact_number">Enter their Contact number</string>
+    <string name="enter_the_office_address">Enter the office address</string>
+    <string name="add_details">ADD DETAILS</string>
+    <string name="made_by_ankit_sharma_with">Made by Ankit Sharma with ❤️‍🔥</string>
+    <string name="you_have_successfully_added_the_contact_details_of_your_manager">You have successfully added the contact details of your Manager</string>
+    <string name="view_details">View Details</string>
+    <string name="close">Close</string>
+    <string name="service_will_be_available_soon">Service will be available soon!!!</string>
+    <string name="features_will_be_added_soon">Features will be added soon!!!</string>
+</resources>
