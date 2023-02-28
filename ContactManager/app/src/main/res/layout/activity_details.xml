@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@drawable/npg"
     tools:context=".Details">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="350dp"
-        android:fontFamily="cursive"
+        android:layout_margin="20dp"
+        android:fontFamily="serif-monospace"
         android:gravity="center"
         android:text="@string/features_will_be_added_soon"
         android:textAlignment="center"

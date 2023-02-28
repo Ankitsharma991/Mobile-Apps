@@ -34,7 +34,6 @@ class Register : AppCompatActivity() {
             if (name == "" || mail == "" || uniqueId == "" || password == "") {
                 Toast.makeText(this, "Value Missing", Toast.LENGTH_SHORT).show()
             } else {
-
                 database = FirebaseDatabase.getInstance().getReference("Users")
                 database.child(uniqueId).setValue(user).addOnSuccessListener {
                     Toast.makeText(this, "User Registered", Toast.LENGTH_SHORT).show()

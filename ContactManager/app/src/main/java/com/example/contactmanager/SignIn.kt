@@ -35,10 +35,11 @@ class SignIn : AppCompatActivity() {
             val passwordString = password.text.toString()
             if(uniqueId.isNotEmpty()){
                 if(passwordString.isNotEmpty()) {
-//                    readData(uniqueId, passwordString)
+                    Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
                     readData(uniqueId)
+                    userName.setText("")
+                    password.setText("")
                 }
-
                 else{
                     Toast.makeText(this, "Enter Password", Toast.LENGTH_SHORT).show()
                 }
@@ -56,8 +57,7 @@ class SignIn : AppCompatActivity() {
                 val name = it.child("name").value
                 val password = it.child("password").value
                 val unique = it.child("uniqueId").value
-//                databaseReference.child(pass).get().addOnSuccessListener { p ->
-//                    if(p.exists()) {
+
                 val intent = Intent(this, Manager::class.java)
                 intent.putExtra(KEY1, email.toString())
                 intent.putExtra(KEY2, name.toString())
@@ -66,13 +66,6 @@ class SignIn : AppCompatActivity() {
                 startActivity(intent)
 
             }
-//                    else{
-//                        Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
-//                    }
-//                }.addOnFailureListener{
-//                    Toast.makeText(this, "Wrong Password", Toast.LENGTH_SHORT).show()
-//                }
-//            }
             else{
                 Toast.makeText(this, "Username doesn't exist", Toast.LENGTH_SHORT).show()
             }

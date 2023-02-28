@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
+        android:inputType="number"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/add_the_manager_s_contact"
         android:textAlignment="center"
@@ -46,7 +47,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etMail"
+            android:id="@+id/mName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -67,7 +68,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/phone"
+            android:id="@+id/mPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -88,7 +89,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/address"
+            android:id="@+id/mAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -102,7 +103,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnClick"
+        android:id="@+id/addBtn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:textAlignment="center"

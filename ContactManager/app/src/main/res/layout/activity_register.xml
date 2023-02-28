@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signup"
+    android:background="@drawable/post"
     tools:context=".Register"
     android:orientation="vertical">
 
@@ -17,7 +17,7 @@
         android:text="@string/register_here"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#0033FF"
+        android:textColor="#417EC3"
         android:textColorHint="#0047FF"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -26,7 +26,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         app:boxStrokeColor="@color/purple_200"
         app:hintTextColor="@color/black"
         app:startIconDrawable="@drawable/ic_baseline_email_24">
@@ -35,7 +35,7 @@
             android:id="@+id/etMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/reg_bg_input"
+            android:background="@drawable/sign_bg_input"
             android:layout_gravity="center"
             android:hint="@string/enter_your_email"
             android:textColorHint="@color/black"
@@ -57,7 +57,7 @@
             android:textColorHint="@color/black"
             android:textStyle="normal"
             android:layout_gravity="center"
-            android:background="@drawable/reg_bg_input"
+            android:background="@drawable/sign_bg_input"
             android:id="@+id/etName"
             android:hint="@string/enter_your_name" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -76,7 +76,7 @@
             android:textColorHint="@color/black"
             android:textStyle="normal"
             android:layout_gravity="center"
-            android:background="@drawable/reg_bg_input"
+            android:background="@drawable/sign_bg_input"
             android:id="@+id/etUsername"
             android:hint="@string/enter_your_username" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:textColorHint="@color/black"
             android:textStyle="normal"
-            android:background="@drawable/reg_bg_input"
+            android:background="@drawable/sign_bg_input"
             android:layout_gravity="center"
             android:id="@+id/etpassword"
             android:hint="@string/enter_your_password" />
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:backgroundTint="#B3124FBF"
+            android:backgroundTint="#66050505"
             android:text="Register" />
         <Button
             android:id="@+id/LoginButton"
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:backgroundTint="#B3124FBF"
+            android:backgroundTint="#66000000"
             android:text="Login" />
     </LinearLayout>
 
