@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListProject</string>
+    <string name="last_message">last message</string>
+    <string name="name">Name</string>
+    <string name="last_message_time">last message time</string>
+    <string name="_5_30">5:30</string>
+    <string name="_5_30_pm">5:30 PM</string>
+    <string name="saumya_singh">Saumya Singh</string>
+    <string name="keep_going">Keep going</string>
+</resources>

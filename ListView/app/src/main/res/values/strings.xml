@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="tasks_bucket">Tasks Bucket</string>
+    <string name="add_task">Add Task</string>
+    <string name="remove_task">Remove Task</string>
+    <string name="remove_task1">Remove Task</string>
+    <string name="add_task1">Add Task</string>
+</resources>
