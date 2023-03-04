@@ -9,7 +9,7 @@ import de.hdodenhof.circleimageview.CircleImageView
 import java.text.FieldPosition
 
 data class MyAdapter(val context : Activity, private val arrayList: ArrayList<User>)
-    : ArrayAdapter<User>(context, R.layout.list_template){
+    : ArrayAdapter<User>(context, R.layout.list_template, arrayList){
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val inflater = LayoutInflater.from(context)
@@ -23,7 +23,6 @@ data class MyAdapter(val context : Activity, private val arrayList: ArrayList<Us
         lastMsg.text = arrayList[position].lastMsg
         lastMsgTime.text = arrayList[position].lastMsgTime
         image.setImageResource(arrayList[position].imageId)
-
         return view
     }
 }

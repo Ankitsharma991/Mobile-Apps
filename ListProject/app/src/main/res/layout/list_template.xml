@@ -2,15 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="horizontal"
-    android:background="@drawable/bc"
     android:layout_marginTop="5dp"
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/profile_image"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@drawable/img2"
         android:layout_margin="10dp"
         app:civ_border_width="2dp"
@@ -19,10 +18,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_margin="10dp"
         android:orientation="vertical">
 
         <TextView
@@ -30,19 +26,18 @@
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:id="@+id/name"
-            android:text="Saumya Singh"
+            android:text="@string/saumya_singh1"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Keep going"
+            android:text="@string/keep_going1"
             android:textColor="#423838"
             android:id="@+id/lastMsg"
-            android:layout_marginTop="5dp"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -50,14 +45,12 @@
         android:id="@+id/lastMsgTime"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
+        android:layout_margin="12dp"
         android:layout_weight="1"
         android:text="@string/_5_30_pm"
         android:textAlignment="textEnd"
         android:textColor="#33ADFF"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
 
