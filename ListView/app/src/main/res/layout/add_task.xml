@@ -2,40 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        app:srcCompat="@drawable/check" />
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:fontFamily="serif"
-        android:gravity="center"
-        android:text="@string/congratulations"
-        android:textColor="#00FF22"
+        android:text="@string/add_task_to_bucket"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:fontFamily="casual"
-        android:text="@string/you_have_successfully_added_the_contact_details_of_your_manager"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:boxStrokeColor="@color/purple_200"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_baseline_event_note_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:hint="@string/enter_your_task"
+            android:textColorHint="@color/black"
+            android:textStyle="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,24 +44,24 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/Feedback"
+            android:id="@+id/cancel"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#9A2020"
-            android:text="@string/view_details"
+            android:text="Cancel"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/Good"
+            android:id="@+id/add"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#599E3A"
-            android:text="@string/close"
+            android:text="@string/add1"
             android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>

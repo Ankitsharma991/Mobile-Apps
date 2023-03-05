@@ -5,4 +5,11 @@
     <string name="remove_task">Remove Task</string>
     <string name="remove_task1">Remove Task</string>
     <string name="add_task1">Add Task</string>
+    <string name="add">Add</string>
+    <string name="close">close</string>
+    <string name="add1">Add</string>
+    <string name="cancel">cancel</string>
+    <string name="add_task_to_bucket">Add Task to Bucket</string>
+    <string name="enter_your_task">Enter your task</string>
+    <string name="note_click_on_the_task_to_remove_it_from_the_bucket">Note : Click on the task to remove it from the bucket</string>
 </resources>
