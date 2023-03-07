@@ -9,4 +9,10 @@
     <string name="keep_going">Keep going</string>
     <string name="saumya_singh1">Saumya Singh</string>
     <string name="keep_going1">Keep going</string>
+    <string name="name_saumya_singh">Name : Saumya Singh</string>
+    <string name="phone_9841294157">Phone : 9841294157</string>
+    <string name="recent_customers_discussions">Recent Customers Discussions</string>
+    <string name="recent_conversations">Recent Conversations</string>
+    <string name="customer_s_details">Customer\'s Details</string>
+    <string name="customer_information">Customer information</string>
 </resources>
