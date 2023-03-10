@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Global Guru</string>
+    <string name="europe">Europe</string>
+    <string name="asia">Asia</string>
+    <string name="south_america">South America</string>
+    <string name="north_america">North America</string>
+    <string name="welcome_to_global_gurus_travels">Welcome to Global Gurus Travels</string>
+    <string name="please_choose_the_continent_you_wish_to_travel_to">Please choose the continent you wish to travel to</string>
+    <string name="africa">Africa</string>
+    <string name="australasia">Australasia</string>
+    <string name="austra_nlasia">Austra-\nlasia</string>
 </resources>
