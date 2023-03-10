@@ -15,11 +15,26 @@ import com.google.android.material.imageview.ShapeableImageView
 class MyAdapter(private val newsArrayList: ArrayList<News>, private val context: Activity) :
     RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
+    /*
+        // Code for recyclerview item click by Saumya dd
+
+        private lateinit var myListener : onItemClickListener
+
+        interface onItemClickListener {
+            fun onItemClicking(position: Int)
+        }
+
+        fun setItemClickListener(listener : onItemClickListener){
+            myListener = listener
+        }
+
+    */
+
     // to create new view instance
     // when layout manager fails to find suitable view for each time
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.MyViewHolder { // if layout manager fails to create view, LM asks for help to this in order to create view and this method LM with the help of view holder
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.row_view, parent, false)
-        return MyViewHolder(itemView)
+        return MyViewHolder(itemView/*, myListener*/)
     }
 
     // populate items with data
@@ -44,9 +59,18 @@ class MyAdapter(private val newsArrayList: ArrayList<News>, private val context:
     }
 
     // it holds the view so views are not created everytime, so memory can be saved
-    class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) { // keeps holding extra view
+    class MyViewHolder(itemView: View /*, listener : onItemClickListener*/) : RecyclerView.ViewHolder(itemView) { // keeps holding extra view
             val hTitle = itemView.findViewById<TextView>(R.id.headingTitle)
             val hImage = itemView.findViewById<ShapeableImageView>(R.id.headingImage)
+
+        /*
+            init {
+                itemView.setOnClickListener{
+                    listener.onItemClicking(adapterPosition)
+                }
+            }
+         */
+
 
         }
 

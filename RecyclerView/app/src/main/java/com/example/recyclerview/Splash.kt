@@ -66,7 +66,13 @@ class Splash : AppCompatActivity() {
 
         myRecyclerView.adapter = MyAdapter(newsArrayList, this)
 
+//        val newsContent = arrayOf(
+//            R.string.news_content, R.string.news_content, R.string.news_content, R.string.news_content,
+//            R.string.news_content, R.string.news_content, R.string.news_content, R.string.news_content,
+//            R.string.news_content, R.string.news_content, R.string.news_content
+//        )
 
 
     }
+
 }
