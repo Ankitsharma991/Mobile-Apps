@@ -13,6 +13,20 @@
         android:theme="@style/Theme.GlobalGuru"
         tools:targetApi="31">
         <activity
+            android:name=".ExploreDest"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AvailableLocations"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".GgHome"
             android:exported="false">
             <meta-data

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="9dp"
+    android:id="@+id/cardItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:src="@drawable/asia8"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/Image"
+            app:shapeAppearanceOverlay="@style/SoftCorner"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/kathmandu"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/Title"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
