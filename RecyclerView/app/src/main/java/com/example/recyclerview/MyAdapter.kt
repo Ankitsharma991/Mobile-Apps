@@ -60,8 +60,8 @@ class MyAdapter(private val newsArrayList: ArrayList<News>, private val context:
 
     // it holds the view so views are not created everytime, so memory can be saved
     class MyViewHolder(itemView: View /*, listener : onItemClickListener*/) : RecyclerView.ViewHolder(itemView) { // keeps holding extra view
-            val hTitle = itemView.findViewById<TextView>(R.id.headingTitle)
-            val hImage = itemView.findViewById<ShapeableImageView>(R.id.headingImage)
+            val hTitle: TextView = itemView.findViewById<TextView>(R.id.headingTitle)
+            val hImage: ShapeableImageView = itemView.findViewById<ShapeableImageView>(R.id.headingImage)
 
         /*
             init {
