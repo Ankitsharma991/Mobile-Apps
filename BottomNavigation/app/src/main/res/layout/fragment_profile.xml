@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8069FF94"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/currently_this_profile_doesn_t_exist"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
