@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EasyShop</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">SignIn</string>
+    <string name="easyshop">EasyShop</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="register_here">Register here...</string>
+    <string name="signin_here">Signin here...</string>
+</resources>
