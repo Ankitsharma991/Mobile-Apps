@@ -104,7 +104,18 @@
             android:textAllCaps="false"
             android:textSize="16sp"
             android:textStyle="bold" />
-
     </LinearLayout>
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/continue_as_a_guest"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
