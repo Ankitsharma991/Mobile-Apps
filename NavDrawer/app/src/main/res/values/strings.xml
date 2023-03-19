@@ -10,4 +10,18 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="education_app">Education App</string>
+    <string name="learn_app_dev_with_saumya_singh">Learn App Dev with Saumya Singh</string>
+    <string name="todo">TODO</string>
+    <string name="category">Category</string>
+    <string name="teaching">Teaching</string>
+    <string name="coding">Coding</string>
+    <string name="research">Research</string>
+    <string name="sports">Sports</string>
+    <string name="fitness">Fitness</string>
+    <string name="public_speaking">Public Speaking</string>
+    <string name="categories">Categories</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
 </resources>
